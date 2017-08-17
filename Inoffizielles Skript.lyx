@@ -11427,7 +11427,7 @@ tikz{
 
 	
 \backslash
-draw[opacity=0] (-1,-2.5) rectangle (1,2.5);
+draw[opacity=0] (0,-2.5) rectangle (0,2.5);
 \end_layout
 
 \begin_layout Plain Layout
