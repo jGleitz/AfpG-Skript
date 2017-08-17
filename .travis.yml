@@ -11,3 +11,4 @@ script:
 
 after_success:
   - bash <(curl -s https://jgleitz.github.io/travis-deploy-gh-pages/deploy.sh) Inoffizielles\ Skript.pdf
+  - curl --user "$WEBDAVUSER":"$WEBDAVPW" -T Inoffizielles\ Skript.pdf "$WEBDAVURL"
