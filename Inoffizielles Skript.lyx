@@ -3047,7 +3047,7 @@ thlabel{euler}
 
 \end_inset
 
- In einem zusammenhängenden, planaren Graph 
+ In einem zusammenhängenden, planaren, einfachen Graphen 
 \begin_inset Formula $G=\left(V,E\right)$
 \end_inset
 
@@ -3055,7 +3055,7 @@ thlabel{euler}
 \begin_inset Formula $\left|V\right|>0$
 \end_inset
 
- gilt für jede planare Einbettung 
+ gilt für jede planare Einbettung:
 \begin_inset Formula 
 \[
 n-m+f=2
