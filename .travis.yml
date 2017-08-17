@@ -2,9 +2,9 @@ sudo: required
 
 install:
   - sudo add-apt-repository -y ppa:lyx-devel/release
+  - sudo add-apt-repository -y ppa:jonathonf/texlive-2016
   - sudo apt-get update
-  - sudo apt-get install -qq lyx texlive-latex-base texlive-latex-recommended texlive-math-extra texlive-lang-german
-  - lyx --export-to pdflatex /tmp/test.tex /usr/share/lyx/examples/splash.lyx
+  - sudo apt-get -qq --no-install-recommends install lyx texlive texlive-latex-recommended texlive-latex-extra texlive-science texlive-math-extra texlive-lang-german
 
 script:
   - ./render.sh Inoffizielles\ Skript.lyx
