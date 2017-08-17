@@ -4902,7 +4902,7 @@ Da
 \end_inset
 
 -Graphen enthält, muss eine Kante 
-\begin_inset Formula $e\in E\left(G\right)\backslash E\left(F\right)$
+\begin_inset Formula $e\in E\left(G'\right)\backslash E\left(F\right)$
 \end_inset
 
  existieren.
