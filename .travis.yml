@@ -1,0 +1,13 @@
+sudo: required
+
+install:
+  - sudo add-apt-repository -y ppa:lyx-devel/release
+  - sudo apt-get update
+  - sudo apt-get install -qq lyx texlive-latex-base texlive-latex-recommended texlive-math-extra texlive-lang-german
+  - lyx --export-to pdflatex /tmp/test.tex /usr/share/lyx/examples/splash.lyx
+
+script:
+  - lyx --export pdf2 Inoffizielles\ Skript.lyx -dbg latex 2>&1 | egrep -v '^(Paragraph.cpp|output_latex.cpp|Font.cpp)'
+
+after_success:
+  - bash <(curl -s https://jgleitz.github.io/travis-deploy-gh-pages/deploy.sh) Inoffizielles\ Skript.pdf
