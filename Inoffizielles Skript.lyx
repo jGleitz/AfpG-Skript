@@ -4494,7 +4494,7 @@ naren Graphen als Minor.
 \end_inset
 
  inzidenten Kanten entfernt werden (
-\begin_inset Formula $G'=G-x-y=G-\left\{ x,y\right\} $
+\begin_inset Formula $G'=G-x-y$
 \end_inset
 
 ).
