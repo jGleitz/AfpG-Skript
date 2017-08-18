@@ -6081,20 +6081,31 @@ Denn angenommen,
 \end_inset
 
  minor-minimal nicht-planar ist).
- Zur planaren Einbettung von 
-\begin_inset Formula $G-\left\{ v,x\right\} $
-\end_inset
-
- kann 
+ Dann kann allerdings 
 \begin_inset Formula $\left\{ v,x\right\} $
 \end_inset
 
- allerdings kreuzungsfrei eingefügt werden.
- Somit ist 
+ in die Einbettung von 
+\begin_inset Formula $G-\left\{ v,x\right\} $
+\end_inset
+
+ kreuzungsfrei eingefügt werden (vgl.
+\begin_inset space \space{}
+\end_inset
+
+Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "g-vx"
+
+\end_inset
+
+).
+ Somit ist ist also auch 
 \begin_inset Formula $G$
 \end_inset
 
- auch planar.
+ planar.
  
 \begin_inset ERT
 status open
@@ -6104,6 +6115,178 @@ status open
 $
 \backslash
 lightning$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+SetGraphUnit{1.5}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Vertex{x}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+SO(x){y}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{scope}[shift={(5,0)}]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Vertex[a=180,d=3]{u}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{scope}[shift={(5,-1.5)}]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Vertex[a=180,d=3]{v}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Edge(x)(y)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Edge(u)(x)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Edge(u)(v)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tikzset{EdgeStyle/.append style={dotted}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Edge(v)(x)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "g-vx"
+
+\end_inset
+
+
+\begin_inset Formula $G-\left\{ v,x\right\} $
+\end_inset
+
+.
+ Da die Kante 
+\begin_inset Formula $\left\{ u,y\right\} $
+\end_inset
+
+ nicht existiert und 
+\begin_inset Formula $G-\left\{ v,x\right\} $
+\end_inset
+
+ planar ist, kann die Kante 
+\begin_inset Formula $\left\{ v,x\right\} $
+\end_inset
+
+ auf jeden Fall kreuzungsfrei gezogen werden.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
