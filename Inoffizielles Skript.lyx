@@ -6047,7 +6047,11 @@ Ein minor-minimaler, nicht-planarer Graph
 \end_layout
 
 \begin_layout Proof
-Es gilt nun für alle 
+Es gilt nun für alle Knoten auf 
+\begin_inset Formula $C$
+\end_inset
+
+ 
 \begin_inset Formula $u,v\in V$
 \end_inset
 
@@ -6069,19 +6073,23 @@ Denn angenommen,
 
 .
  
-\begin_inset Formula $G-v-x$
+\begin_inset Formula $G-\left\{ v,x\right\} $
 \end_inset
 
- ist planar.
+ ist planar (da 
+\begin_inset Formula $G$
+\end_inset
+
+ minor-minimal nicht-planar ist).
  Zur planaren Einbettung von 
-\begin_inset Formula $G-v-x$
+\begin_inset Formula $G-\left\{ v,x\right\} $
 \end_inset
 
  kann 
 \begin_inset Formula $\left\{ v,x\right\} $
 \end_inset
 
- kreuzungsfrei eingefügt werden.
+ allerdings kreuzungsfrei eingefügt werden.
  Somit ist 
 \begin_inset Formula $G$
 \end_inset
