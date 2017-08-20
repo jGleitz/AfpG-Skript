@@ -13630,7 +13630,7 @@ thref{mixed-max-cut}
 \begin_inset Formula $G'$
 \end_inset
 
- hat eine gerade Anzahl an Knoten, da 
+ hat eine gerade Anzahl an Knoten, weil 
 \begin_inset Formula $G^{*}$
 \end_inset
 
@@ -13638,7 +13638,8 @@ thref{mixed-max-cut}
 \begin_inset Formula $2m=3n$
 \end_inset
 
- gilt.
+ gilt, da jede Kante 2 Facetten voneinander abgrenzt und in einem 3-regulären
+ Graphen jede Facette von 3 Kanten begrenzt wird.
 \end_layout
 
 \begin_layout Lemma*
