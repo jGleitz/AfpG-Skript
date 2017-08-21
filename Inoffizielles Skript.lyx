@@ -7606,7 +7606,7 @@ Es gibt planare Graphen, die nicht 4-listenfärbbar sind.
 
 \begin_layout Proof
 Es wird ein Gegenbeispiel konstruiert.
- Basis des Beispiels eine (unvollständige) Listenfärbungsinstanz 
+ Basis des Beispiels ist eine (unvollständige) Listenfärbungsinstanz 
 \begin_inset Formula $I$
 \end_inset
 
@@ -8166,7 +8166,7 @@ Nun kann das Gegenbeispiel konstruiert werden.
 \begin_inset Formula $H$
 \end_inset
 
-, 
+: 
 \begin_inset Formula $H_{1},H_{2},H_{3},H_{4}$
 \end_inset
 
@@ -9229,16 +9229,16 @@ Sei
 \begin_inset Formula $C$
 \end_inset
 
- der Kreis, der die äußeren Facette begrenzt.
+ der Kreis, der die äußere Facette begrenzt.
 \end_layout
 
 \begin_deeper
 \begin_layout Case
-C enthält Sehne 
+C enthält eine Sehne 
 \begin_inset Formula $\left\{ v,w\right\} $
 \end_inset
 
-
+.
 \end_layout
 
 \begin_deeper
@@ -9471,7 +9471,7 @@ thref{fuenf-listen}
 \begin_inset Formula $C_{2}$
 \end_inset
 
- welche eindeutig zwei Graphen 
+, welche eindeutig zwei Graphen 
 \begin_inset Formula $G_{1},G_{2}$
 \end_inset
 
@@ -9536,7 +9536,7 @@ thref{fuenf-listen}
 \begin_inset Formula $G_{1}$
 \end_inset
 
-angewandt werden.
+ angewandt werden.
 \end_layout
 
 \end_deeper
@@ -9544,7 +9544,7 @@ angewandt werden.
 \begin_inset Formula $G$
 \end_inset
 
- enthält keine Sehne
+ enthält keine Sehne.
 \end_layout
 
 \begin_deeper
@@ -9672,7 +9672,7 @@ Die Nachbarn
 \begin_inset Formula $P$
 \end_inset
 
-, da all inneren Facetten von 
+, da alle inneren Facetten von 
 \begin_inset Formula $G$
 \end_inset
 
@@ -13008,7 +13008,8 @@ Sei
 \noun on
 gerade
 \noun default
-, falls im durch sie induzierten Subgraph von 
+, gwd.
+ im durch sie induzierten Subgraph von 
 \begin_inset Formula $G$
 \end_inset
 
@@ -13024,12 +13025,13 @@ Ein Graph
 \noun on
 eulersch
 \noun default
- wenn jede Zusammenhangskomponente von 
+, gdw.
+ jede Zusammenhangskomponente von 
 \begin_inset Formula $G$
 \end_inset
 
- einen Euler-Kreis enthält, das heißt einen Kreis, der jede Kante genau
- einmal enthält.
+ einen Euler-Kreis enthält.
+ Ein Euler-Kreis ist ein Kreis, der jede Kante genau einmal enthält.
 \end_layout
 
 \begin_layout Remark*
@@ -13095,7 +13097,7 @@ Mixed Max Kreis
 \begin_inset Formula $w:E\rightarrow\mathbb{R}$
 \end_inset
 
- wird eine nichtleere, gerade Menge 
+, wird eine nichtleere, gerade Menge 
 \begin_inset Formula $E'\subseteq E$
 \end_inset
 
@@ -13182,10 +13184,11 @@ thlabel{mixed-max-cut}
 
 \begin_deeper
 \begin_layout Enumerate
-trianguliere 
+Trianguliere 
 \begin_inset Formula $G$
 \end_inset
 
+.
  (
 \begin_inset Formula $\O n$
 \end_inset
@@ -13194,7 +13197,7 @@ trianguliere
 \end_layout
 
 \begin_layout Enumerate
-berechne den Dualgraph 
+Berechne den Dualgraph 
 \begin_inset Formula $G^{*}$
 \end_inset
 
@@ -13208,7 +13211,7 @@ berechne den Dualgraph
 \end_inset
 
  durch 
-\begin_inset Formula $w\left(e^{*}\right)\coloneqq w\left(e\right)$
+\begin_inset Formula $w\left(e^{*}\right)\coloneqq w\left(e\right).$
 \end_inset
 
  (
@@ -13219,7 +13222,7 @@ berechne den Dualgraph
 \end_layout
 
 \begin_layout Enumerate
-konstruiere aus 
+Konstruiere aus 
 \begin_inset Formula $G^{*}$
 \end_inset
 
@@ -13231,7 +13234,7 @@ konstruiere aus
 \begin_inset Formula $G'$
 \end_inset
 
- eine Gerade Menge 
+ eine gerade Menge 
 \begin_inset Formula $M^{*}$
 \end_inset
 
@@ -13239,7 +13242,8 @@ konstruiere aus
 \begin_inset Formula $G^{*}$
 \end_inset
 
- induziert (
+ induziert.
+ (
 \begin_inset Formula $\O n$
 \end_inset
 
@@ -13247,7 +13251,7 @@ konstruiere aus
 \end_layout
 
 \begin_layout Enumerate
-berechne perfektes Matching 
+Berechne ein perfektes Matching 
 \begin_inset Formula $M$
 \end_inset
 
@@ -13255,7 +13259,7 @@ berechne perfektes Matching
 \begin_inset Formula $G'$
 \end_inset
 
- und induzierte gerade Menge 
+ und die induzierte gerade Menge 
 \begin_inset Formula $M^{*}$
 \end_inset
 
@@ -13263,6 +13267,7 @@ berechne perfektes Matching
 \begin_inset Formula $G^{*}$
 \end_inset
 
+.
  (
 \begin_inset Formula $\O{n^{\frac{3}{2}}\log n}$
 \end_inset
@@ -13305,12 +13310,12 @@ Wenn
 \end_inset
 
 .
- Deshalb ändert sich durch das Triangulieren nicht das Ergebnis.
+ Deshalb ändert sich durch das Triangulieren das Ergebnis nicht.
  Da 
 \begin_inset Formula $G$
 \end_inset
 
- trianguliert ist haben alle Knoten in 
+ trianguliert ist, haben alle Knoten in 
 \begin_inset Formula $G^{*}$
 \end_inset
 
@@ -13726,7 +13731,7 @@ Sei
 \emph on
 keine
 \emph default
- Kanten von 
+ Kante von 
 \begin_inset Formula $\Delta_{v^{*}}$
 \end_inset
 
@@ -13794,7 +13799,7 @@ Ist wiederum
 \begin_inset Formula $M$
 \end_inset
 
- erweitert werden, im ersten Fall die Kante, die die beiden ungematchten
+ erweitert werden, indem im ersten Fall die Kante, die die beiden ungematchten
  Knoten in 
 \begin_inset Formula $\Delta_{v^{*}}$
 \end_inset
@@ -13842,7 +13847,7 @@ Sei
 \begin_inset Formula $G$
 \end_inset
 
- falls 
+, falls 
 \begin_inset Formula $M$
 \end_inset
 
@@ -13890,7 +13895,7 @@ Die Forderung, dass das Matching minimalen Gewichts, das in
 \begin_inset Formula $G'$
 \end_inset
 
- gilt
+ gilt:
 \begin_inset Formula 
 \[
 \bar{w}\left(M\right)=\sum_{e\in M}\bar{w}\left(e\right)=\frac{n}{2}\cdot W-\sum_{e\in M}w\left(e\right)\geq\frac{n}{2}\left(W-w_{max}\right)
@@ -13906,7 +13911,7 @@ Für ein nicht perfektes Matching
 \begin_inset Formula $G'$
 \end_inset
 
- gilt 
+ gilt:
 \begin_inset Formula 
 \[
 \bar{w}\left(M'\right)\leq\left(\frac{n}{2}-1\right)\cdot\left(W-w_{min}\right)
@@ -18154,7 +18159,7 @@ Konstruiere aus
 \begin_inset Formula $D=\left\{ \left\{ s_{1},t_{1}\right\} ,\dots,\left\{ s_{k},t_{k}\right\} \right\} $
 \end_inset
 
- 
+ eine 
 \begin_inset Quotes gld
 \end_inset
 
@@ -18252,7 +18257,7 @@ Klammerstruktur
 \begin_inset Quotes grd
 \end_inset
 
-:
+.
 \end_layout
 
 \begin_layout Subsubsection*
