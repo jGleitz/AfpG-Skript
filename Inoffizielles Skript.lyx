@@ -9678,7 +9678,7 @@ Die Nachbarn
 
  Dreiecke sind.
  
-\begin_inset Formula $\left(G-v_{k}\right)\cup P\eqqcolon C'$
+\begin_inset Formula $\left(C-v_{k}\right)\cup P\eqqcolon C'$
 \end_inset
 
  ist wiederum ein Kreis.
